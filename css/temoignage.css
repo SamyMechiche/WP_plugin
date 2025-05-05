@@ -46,3 +46,78 @@ ul li .rating {
     color: #f39c12;
     font-size: 1.2em;
 }
+
+.samy-temoignage-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.samy-temoignage-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.samy-temoignage-form .form-group {
+    margin-bottom: 20px;
+}
+
+.samy-temoignage-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.samy-temoignage-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.samy-temoignage-form .form-control:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.2);
+}
+
+.samy-temoignage-form textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.samy-temoignage-form .submit-button {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.samy-temoignage-form .submit-button:hover {
+    background-color: #005177;
+}
+
+.samy-temoignage-form .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.2);
+}
+
+@media (max-width: 768px) {
+    .samy-temoignage-form {
+        margin: 15px;
+        padding: 15px;
+    }
+} 
